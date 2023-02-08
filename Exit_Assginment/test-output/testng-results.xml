@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-08T12:32:14 IST" name="Suite" finished-at="2023-02-08T12:33:12 IST" duration-ms="58047">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.apidemo.runner.Run@1a35993f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-02-08T12:32:14 IST" name="Test" finished-at="2023-02-08T12:33:12 IST" duration-ms="58047">
+      <class name="com.apidemo.stepdefinition.HookFile">
+        <test-method is-config="true" signature="startServiceAtSuitLevel()[pri:0, instance:com.apidemo.stepdefinition.HookFile@5bb7643d]" started-at="2023-02-08T12:32:11 IST" name="startServiceAtSuitLevel" finished-at="2023-02-08T12:32:14 IST" duration-ms="3091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startServiceAtSuitLevel -->
+        <test-method is-config="true" signature="stopServiceAtSuitLevel()[pri:0, instance:com.apidemo.stepdefinition.HookFile@5bb7643d]" started-at="2023-02-08T12:33:12 IST" name="stopServiceAtSuitLevel" finished-at="2023-02-08T12:33:12 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServiceAtSuitLevel -->
+      </class> <!-- com.apidemo.stepdefinition.HookFile -->
+      <class name="com.apidemo.runner.Run">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.apidemo.runner.Run@1a35993f]" started-at="2023-02-08T12:32:14 IST" name="setUpClass" finished-at="2023-02-08T12:32:16 IST" duration-ms="2127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@29ae2517]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.apidemo.runner.Run@1a35993f]" started-at="2023-02-08T12:32:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-08T12:32:51 IST" duration-ms="34879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the functionality of SMS Feature with Valid recipient"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of SMS feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.apidemo.runner.Run@1a35993f]" started-at="2023-02-08T12:32:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-08T12:33:11 IST" duration-ms="19789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the functionality of SMS Feature with Invalid recipient"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the functionality of SMS feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.apidemo.runner.Run@1a35993f]" started-at="2023-02-08T12:33:11 IST" name="tearDownClass" finished-at="2023-02-08T12:33:12 IST" duration-ms="1204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.apidemo.runner.Run -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
